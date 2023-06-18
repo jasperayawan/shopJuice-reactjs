@@ -1,3 +1,6 @@
+import { GiFruiting, GiAchievement } from 'react-icons/gi'
+import { RiHomeSmile2Line } from 'react-icons/ri'
+
 
 export default function Featured(){
     return(
@@ -7,18 +10,27 @@ export default function Featured(){
                     <div className="py-10">
                         <div className="flex flex-col md:flex-row gap-20 md:gap-2">
                             <div className="flex flex-col justify-center items-center gap-4"> 
+                                <div>
+                                    <GiFruiting className='text-5xl'/>
+                                </div>
                                 <h2 className="text-3xl font-bold">Plant-Based</h2>
                                 <p className="text-center">Suitable for vegans and non-vegans alike! 
                                     Plants are powerful and healing with incredible
                                      nutritional value</p>
                             </div>
 
-                            <div className="flex flex-col justify-center items-center gap-4"> 
+                            <div className="flex flex-col justify-center items-center gap-4">
+                                <div>
+                                    <GiAchievement className='text-5xl'/>
+                                </div> 
                                 <h2 className="text-3xl font-bold">Certified Organic</h2>
                                 <p className="text-center">We only use organic and non-GMO produce. Our healthy drinks taste as good as they make you feel.</p>
                             </div>
 
-                            <div className="flex flex-col justify-center items-center gap-4"> 
+                            <div className="flex flex-col justify-center items-center gap-4">
+                                <div>
+                                    <RiHomeSmile2Line className='text-5xl'/>
+                                </div> 
                                 <h2 className="text-3xl font-bold">Sustainable Packaging</h2>
                                 <p className="text-center">Bottled in glass with lids made of recycled plastic. We're proud to introduce our bottle-return program.</p>
                             </div>

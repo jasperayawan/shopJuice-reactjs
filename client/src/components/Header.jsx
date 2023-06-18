@@ -1,5 +1,8 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import {GoPerson} from 'react-icons/go'
+import { AiOutlineSearch } from 'react-icons/ai'
+import { BsCart3 } from 'react-icons/bs'
 
 export default function Header() {
     const [navbarColor, setNavbarColor] = useState('transparent');
@@ -47,7 +50,12 @@ export default function Header() {
                   </li>
                 </ul>
 
-                <button>Profile</button>
+                <div className='flex gap-2 '>
+                <button><GoPerson/></button>
+                <button><AiOutlineSearch/></button>
+                <button><BsCart3/></button>
+                </div>
+                
               </div>
             </nav>
           </div>

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import '../App.css'
 
 export default function JuiceShopNow(){
@@ -13,7 +14,7 @@ export default function JuiceShopNow(){
                                      freshest fruits and natural ingredients using a cold-pressed
                                       method that keeps nutrients and enzymes intact.</p>
                                 <div>
-                                    <button className='px-5 py-3 text-white bg-black'>Shop Now</button>
+                                    <Link to='/juice' className='px-5 py-3 text-white bg-black'>Shop Now</Link>
                                 </div>
                             </div>
                         </div>
@@ -24,7 +25,7 @@ export default function JuiceShopNow(){
                                     breakfast smoothies all year round. Spring is here, which means we're
                                      harvesting fresh fruits and veggies for our seasonal favorites!</p>
                                 <div>
-                                    <button className='px-5 py-3 text-white bg-black'>Shop Now</button>
+                                    <Link className='px-5 py-3 text-white bg-black'>Shop Now</Link>
                                 </div>
                             </div>
                         </div>
